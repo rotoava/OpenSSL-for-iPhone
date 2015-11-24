@@ -1,3 +1,29 @@
+
+
+__change rollback to old version:__
+
+* ARCH  support: x86_64 arm64 armv7 armv7s. // (i386 is removed)
+* bitcode supported.
+* remove tvOS.
+
+
+__run:__
+
+step1:	create static lib 	
+```./build-libssl.sh```
+
+
+step2: create static framework	
+
+```./create-openssl-framework.sh```
+
+	
+	
+	
+	
+_______________________
+
+
 # OpenSSL-for-iOS [![Build Status](https://travis-ci.org/x2on/OpenSSL-for-iPhone.png)](https://travis-ci.org/x2on/OpenSSL-for-iPhone)
 
 This is a script for using self-compiled builds of the OpenSSL-library on the iPhone. You can build apps with XCode and the official SDK from Apple with this. I also made a small example-app for using the libraries with XCode and the iPhone/iPhone-Simulator.
