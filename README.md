@@ -10,20 +10,15 @@ __change rollback to old version:__
 __run:__
 
 step1:	create static lib				
-	
-```./build-libssl.sh```
+
+			./build-libssl.sh
 
 
 step2: create static framework					
 
 
-```./create-openssl-framework.sh```				
+			./create-openssl-framework.sh			
 
-====================================
-
-
-
-	
 ====================================
 	
 
