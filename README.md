@@ -19,12 +19,14 @@ step2: create static framework
 
 ```./create-openssl-framework.sh```				
 
+====================================
+
+
 
 	
+====================================
 	
-	
-	
-_______________________
+
 
 
 # OpenSSL-for-iOS [![Build Status](https://travis-ci.org/x2on/OpenSSL-for-iPhone.png)](https://travis-ci.org/x2on/OpenSSL-for-iPhone)
